@@ -16,7 +16,7 @@ This setup would be ideal for deploying via [Docker](https://www.docker.com), [A
 ```
 $ git clone ssh://git@github.com:rounding8/react-babel7-webpack-boilerplate.git   # Clone Remote Repository
 $ cd react-babel7-webpack-boilerplate/                                            # Change Directory to "react-babel7-webpack-boilerplate" of Local Repository
-$ yarn                                                                            # Install Application Dependencies via [Yarn](https://yarnpkg.com)
+$ yarn                                                                            # Install Application Dependencies via Yarn
 $ yarn start                                                                      # Execute in "Development" mode
 ```
 
@@ -109,4 +109,5 @@ $ yarn build            # Generates Production *dist* distribution index.html, b
 
 | Version | Date     | Commit                                                                                                                   | Description |
 |---------|----------|--------------------------------------------------------------------------------------------------------------------------|-------------|
+| 1.0.0   | 11-30-18 | [944c613](https://github.com/rounding8/react-babel7-webpack-boilerplate/commit/944c6135a4edd0ab4d05d8265e9872f343a81c57) | Updated Boilerplate w/ Initial Application |
 | 0.0.0   | 11-30-18 | [352dc2c](https://github.com/rounding8/react-babel7-webpack-boilerplate/commit/352dc2cd50e46f33f679fbedcd474ed3d6ccc6e2) | 🎉  Initial commit |
