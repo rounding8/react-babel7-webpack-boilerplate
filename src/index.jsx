@@ -1,7 +1,6 @@
 
-import React     from 'react';
-import ReactDOM  from 'react-dom';
-import IdleTimer from 'react-idle-timer';
+import React    from 'react';
+import ReactDOM from 'react-dom';
 
 import Home from 'container/home';
 
@@ -26,13 +25,9 @@ const App = {
         console.log('=> App.load()');
 
         const content = (
-            <IdleTimer
-                element    = {document}
-                idleAction = {this.onIdle}
-                timeout    = {App['TIMEOUT']}>
+            <Home app={App} />
 
-                <Home app={App} />
-            </IdleTimer>
+            // Add more containers/components here...
         );
 
         App.render(content).exec();

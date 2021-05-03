@@ -1,8 +1,7 @@
 {
-  "name": "rounding8-react-babel7-webpack-boilerplate",
+  "name": "react-babel7-webpack-boilerplate",
   "version": "1.0.0",
-  "description": "Demo #4 ∞ Latest React + Babel 7 + webpack Application 🍽",
-  "homepage": "http://roundingeight.com",
+  "description": "React + Babel + webpack 🍽",
   "license": "MIT",
   "author": "Raven N. Allan",
   "babel": {
@@ -16,30 +15,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rounding8/react-babel7-webpack-boilerplate"
+    "url": "https://github.com/ravenallan/react-babel7-webpack-boilerplate"
   },
   "scripts": {
-    "build": "webpack",
-    "start": "webpack-dev-server --mode development"
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
   },
   "dependencies": {
-    "@babel/polyfill": "7.0.0",
-    "prop-types": "15.6.2",
-    "react": "16.6.3",
-    "react-dom": "16.6.3",
-    "react-idle-timer": "4.1.3"
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@babel/core": "7.1.6",
-    "@babel/plugin-proposal-class-properties": "7.1.0",
-    "@babel/preset-env": "7.1.6",
-    "@babel/preset-react": "7.0.0",
-    "@babel/register": "7.0.0",
-    "babel-loader": "8.0.4",
-    "html-webpack-plugin": "3.2.0",
-    "webpack": "4.26.0",
-    "webpack-cli": "3.1.2",
-    "webpack-dev-server": "3.1.10"
+    "@babel/core": "7.14.0",
+    "@babel/plugin-proposal-class-properties": "7.13.0",
+    "@babel/preset-env": "7.14.0",
+    "@babel/preset-react": "7.13.13",
+    "babel-loader": "8.2.2",
+    "html-webpack-plugin": "5.3.1",
+    "webpack": "5.36.2",
+    "webpack-cli": "4.6.0",
+    "webpack-dev-server": "3.11.2"
   },
   "engines": {
     "node": ">= 10",

@@ -13,7 +13,7 @@ export default class Home extends React.Component {
 
     render() {
         return (
-            <h1>Demo #4 ∞ Latest React + Babel 7 + webpack Application 🍽</h1>
+            <h1>React + Babel + webpack 🍽</h1>
         );
     }
 }
