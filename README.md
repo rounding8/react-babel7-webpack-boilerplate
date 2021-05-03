@@ -10,10 +10,10 @@
 ## Development
 
 ```
-$ git clone ssh://git@github.com:ravenallan/react-babel7-webpack-boilerplate.git  # Clone Remote Repository
-$ cd react-babel7-webpack-boilerplate/                                            # Change Directory to "react-babel7-webpack-boilerplate" of Local Repository
-$ yarn                                                                            # Install Application Dependencies via Yarn
-$ yarn start                                                                      # Execute in "Development" mode
+$ git clone ssh://git@github.com:ravenallan/react-babel-webpack-boilerplate.git # Clone Remote Repository
+$ cd react-babel-webpack-boilerplate/                                           # Change Directory to "react-babel-webpack-boilerplate" of Local Repository
+$ yarn                                                                          # Install Application Dependencies via Yarn
+$ yarn start                                                                    # Execute in "Development" mode
 ```
 
 <br>
@@ -69,7 +69,7 @@ $ yarn build            # Generates Production *dist* distribution index.html, b
 
 <br>
 
-> See additional [development dependencies](https://github.com/ravenallan/react-babel7-webpack-boilerplate/blob/master/package.json#L32-L43)
+> See additional [development dependencies](https://github.com/ravenallan/react-babel-webpack-boilerplate/blob/master/package.json)
 
 <br>
 
@@ -101,7 +101,8 @@ $ yarn build            # Generates Production *dist* distribution index.html, b
 
 ## Changelog
 
-| Version | Date     | Commit                                                                                                                    | Description |
-|---------|----------|---------------------------------------------------------------------------------------------------------------------------|-------------|
-| 1.0.0   | 11-30-18 | [944c613](https://github.com/ravenallan/react-babel7-webpack-boilerplate/commit/944c6135a4edd0ab4d05d8265e9872f343a81c57) | Updated Boilerplate w/ Initial Application |
-| 0.0.0   | 11-30-18 | [352dc2c](https://github.com/ravenallan/react-babel7-webpack-boilerplate/commit/352dc2cd50e46f33f679fbedcd474ed3d6ccc6e2) | 🎉  Initial commit |
+| Version | Date     | Commit                                                                                                                   | Description |
+|---------|----------|--------------------------------------------------------------------------------------------------------------------------|-------------|
+| 1.1.0   | 05-03-21 | [6b6f3ae](https://github.com/ravenallan/react-babel-webpack-boilerplate/commit/6b6f3ae3febb17c0c20784306821402256c96480) | Application Dependencies & Documentation |
+| 1.0.0   | 11-30-18 | [944c613](https://github.com/ravenallan/react-babel-webpack-boilerplate/commit/944c6135a4edd0ab4d05d8265e9872f343a81c57) | Updated Boilerplate w/ Initial Application |
+| 0.0.0   | 11-30-18 | [352dc2c](https://github.com/ravenallan/react-babel-webpack-boilerplate/commit/352dc2cd50e46f33f679fbedcd474ed3d6ccc6e2) | 🎉  Initial commit |
