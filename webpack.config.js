@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path              = require('path');
 
 module.exports = {
-  entry: ['@babel/polyfill', './src/index.jsx'],
+  entry: ['./src/index.jsx'],
   output: {
     path       : path.resolve(__dirname, 'dist'),
     filename   : 'bundle.js',
@@ -24,7 +24,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title    : 'Demo #4 ∞ Latest React + Babel 7 + webpack Application  🍽',
+      title    : 'React + Babel + webpack 🍽',
       template : 'public/html/index.html',
       favicon  : 'public/icon/favicon.ico'
     })

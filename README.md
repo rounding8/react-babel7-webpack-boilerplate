@@ -1,20 +1,16 @@
 
-# Demo #4 ∞ Latest React + Babel 7 + webpack Application 🍽
+# React + Babel + webpack 🍽
 
-### Server-side Web Application using React v16 + Babel v7 + webpack v4
+### Server-side Web Application built with React v17, Babel v7, webpack v5
 
-> The purpose of this boilerplate is to show that I know one of many ways to create a web application; feel free to clone|fork and use as needed :D
-
-<br>
-
-This setup would be ideal for deploying via [Docker](https://www.docker.com), [AWS S3 Bucket](https://aws.amazon.com/s3), etc.
+> have fun :D
 
 <br>
 
 ## Development
 
 ```
-$ git clone ssh://git@github.com:rounding8/react-babel7-webpack-boilerplate.git   # Clone Remote Repository
+$ git clone ssh://git@github.com:ravenallan/react-babel7-webpack-boilerplate.git  # Clone Remote Repository
 $ cd react-babel7-webpack-boilerplate/                                            # Change Directory to "react-babel7-webpack-boilerplate" of Local Repository
 $ yarn                                                                            # Install Application Dependencies via Yarn
 $ yarn start                                                                      # Execute in "Development" mode
@@ -36,7 +32,7 @@ $ yarn build            # Generates Production *dist* distribution index.html, b
 
 ```
 |- dist                 -- Webpack build of full-stack application
-  |- index.html         // Single HTML Index File for Testing Progress SPA
+  |- index.html         // Single HTML Index File for SPA
   |- bundle.js          // Single webpack compiled source script of Application for Production
   |- ...                // Bundled assets to be included w/ dist (e.g. favicon.ico, custom font files, etc.)
 |- node_modules/        // Packages installed via Yarn (dependencies & devDependencies)
@@ -52,7 +48,7 @@ $ yarn build            # Generates Production *dist* distribution index.html, b
   |- container          // Main Section Parent Component Class Containers
     |- home
       |- index.jsx
-  |- index.jsx          // Main webpack Entry
+  |- index.jsx          // Main webpack entry
 |- .gitignore           // Git repository tracking files & folders to ignore
 |- LICENSE
 |- package.json         // Resource for installing & managing Application dependencies
@@ -65,17 +61,15 @@ $ yarn build            # Generates Production *dist* distribution index.html, b
 
 ### Dependencies
 
-| Resource                                                                    | npm                                                                | Description / Implementation                              |
-|-----------------------------------------------------------------------------|--------------------------------------------------------------------|-----------------------------------------------------------|
-| [Polyfill](https://babeljs.io/docs/usage/polyfill)                          | [babel-polyfill](https://www.npmjs.com/package/babel-polyfill)     | Dependency for Authentication oidc-client-js library      |
-| [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)      | [prop-types](https://www.npmjs.com/package/prop-types)             | Runtime type checking for React props and similar objects |
-| [react](https://reactjs.org)                                                | [react](https://www.npmjs.com/package/react)                       | A JavaScript library for building user interfaces         |
-| [ReactDOM](https://reactjs.org/docs/react-dom.html)                         | [react-dom](https://www.npmjs.com/package/react-dom)               | DOM-specific methods used at top level of application     |
-| [React Idle Timer](https://github.com/supremetechnopriest/react-idle-timer) | [react-idle-timer](https://www.npmjs.com/package/react-idle-timer) | Idle Timeout component for forcing User Logout @ 30 mins. |
+| Resource                                                               | npm                                                    | Description / Implementation                              |
+|------------------------------------------------------------------------|--------------------------------------------------------|-----------------------------------------------------------|
+| [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html) | [prop-types](https://www.npmjs.com/package/prop-types) | Runtime type checking for React props and similar objects |
+| [react](https://reactjs.org)                                           | [react](https://www.npmjs.com/package/react)           | A JavaScript library for building user interfaces         |
+| [ReactDOM](https://reactjs.org/docs/react-dom.html)                    | [react-dom](https://www.npmjs.com/package/react-dom)   | DOM-specific methods used at top level of application     |
 
 <br>
 
-> See additional [development dependencies](https://github.com/rounding8/react-babel7-webpack-boilerplate/blob/master/package.json#L32-L43)
+> See additional [development dependencies](https://github.com/ravenallan/react-babel7-webpack-boilerplate/blob/master/package.json#L32-L43)
 
 <br>
 
@@ -107,7 +101,7 @@ $ yarn build            # Generates Production *dist* distribution index.html, b
 
 ## Changelog
 
-| Version | Date     | Commit                                                                                                                   | Description |
-|---------|----------|--------------------------------------------------------------------------------------------------------------------------|-------------|
-| 1.0.0   | 11-30-18 | [944c613](https://github.com/rounding8/react-babel7-webpack-boilerplate/commit/944c6135a4edd0ab4d05d8265e9872f343a81c57) | Updated Boilerplate w/ Initial Application |
-| 0.0.0   | 11-30-18 | [352dc2c](https://github.com/rounding8/react-babel7-webpack-boilerplate/commit/352dc2cd50e46f33f679fbedcd474ed3d6ccc6e2) | 🎉  Initial commit |
+| Version | Date     | Commit                                                                                                                    | Description |
+|---------|----------|---------------------------------------------------------------------------------------------------------------------------|-------------|
+| 1.0.0   | 11-30-18 | [944c613](https://github.com/ravenallan/react-babel7-webpack-boilerplate/commit/944c6135a4edd0ab4d05d8265e9872f343a81c57) | Updated Boilerplate w/ Initial Application |
+| 0.0.0   | 11-30-18 | [352dc2c](https://github.com/ravenallan/react-babel7-webpack-boilerplate/commit/352dc2cd50e46f33f679fbedcd474ed3d6ccc6e2) | 🎉  Initial commit |
